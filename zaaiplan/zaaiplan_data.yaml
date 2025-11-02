@@ -1,0 +1,301 @@
+bloemen:
+- naam: Afrikaantjes
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Mei-Augustus
+  hoogteBereik: 20-30
+  gemiddeldeHoogte: 25
+  hoogtecategorie: Laag
+  hoofdkleur: Oranje/Geel
+  kleurvarianten: Geel, Oranje, Rood
+- naam: Aster
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juli-September
+  hoogteBereik: 40-80
+  gemiddeldeHoogte: 60
+  hoogtecategorie: Middel
+  hoofdkleur: Paars/Blauw
+  kleurvarianten: Paars, Blauw, Wit, Roze
+- naam: Begonia
+  categorie: Eenjarig
+  plantmoment: Februari-Mei
+  zonSchaduw: Halfschaduw
+  bloeitijd: Mei-Oktober
+  hoogteBereik: 20-40
+  gemiddeldeHoogte: 30
+  hoogtecategorie: Laag
+  hoofdkleur: Roze/Rood
+  kleurvarianten: Roze, Rood, Wit, Oranje
+- naam: Cosmea
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juni-Oktober
+  hoogteBereik: 60-120
+  gemiddeldeHoogte: 90
+  hoogtecategorie: Hoog
+  hoofdkleur: Wit/Roze
+  kleurvarianten: Wit, Roze, Rood
+- naam: Goudsbloem
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juni-Oktober
+  hoogteBereik: 30-60
+  gemiddeldeHoogte: 45
+  hoogtecategorie: Middel
+  hoofdkleur: Oranje/Geel
+  kleurvarianten: Geel, Oranje
+- naam: Korenbloem
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Mei-September
+  hoogteBereik: 40-80
+  gemiddeldeHoogte: 60
+  hoogtecategorie: Middel
+  hoofdkleur: Blauw
+  kleurvarianten: Blauw, Wit, Roze
+- naam: Klaproos
+  categorie: Eenjarig
+  plantmoment: Februari-Maart
+  zonSchaduw: Zon
+  bloeitijd: Juni-Augustus
+  hoogteBereik: 40-80
+  gemiddeldeHoogte: 60
+  hoogtecategorie: Middel
+  hoofdkleur: Rood
+  kleurvarianten: Rood, Roze, Wit
+- naam: Lavatera
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juli-September
+  hoogteBereik: 60-120
+  gemiddeldeHoogte: 90
+  hoogtecategorie: Hoog
+  hoofdkleur: Roze/Wit
+  kleurvarianten: Roze, Wit, Paars
+- naam: Oost-Indische Kers
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Halfschaduw
+  bloeitijd: Juni-Oktober
+  hoogteBereik: 30-60
+  gemiddeldeHoogte: 45
+  hoogtecategorie: Middel
+  hoofdkleur: Oranje/Geel
+  kleurvarianten: Oranje, Geel, Rood
+- naam: Petunia
+  categorie: Eenjarig
+  plantmoment: Februari-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juni-Oktober
+  hoogteBereik: 20-40
+  gemiddeldeHoogte: 30
+  hoogtecategorie: Laag
+  hoofdkleur: Paars/Roze
+  kleurvarianten: Paars, Roze, Wit, Rood
+- naam: Ridderspoor
+  categorie: Meerjarig
+  plantmoment: Maart-Juli
+  zonSchaduw: Zon
+  bloeitijd: Juli-Augustus
+  hoogteBereik: 80-150
+  gemiddeldeHoogte: 115
+  hoogtecategorie: Zeer Hoog
+  hoofdkleur: Blauw/Paars
+  kleurvarianten: Blauw, Paars, Roze, Wit
+- naam: Salvia
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juni-September
+  hoogteBereik: 30-60
+  gemiddeldeHoogte: 45
+  hoogtecategorie: Middel
+  hoofdkleur: Rood/Paars
+  kleurvarianten: Rood, Paars, Blauw
+- naam: Siererwt
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon/Halfschaduw
+  bloeitijd: Juni-September
+  hoogteBereik: 150-200
+  gemiddeldeHoogte: 175
+  hoogtecategorie: Zeer Hoog
+  hoofdkleur: Paars/Roze
+  kleurvarianten: Paars, Roze, Wit
+- naam: Slangenkruid
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juli-Oktober
+  hoogteBereik: 30-80
+  gemiddeldeHoogte: 55
+  hoogtecategorie: Middel
+  hoofdkleur: Wit/Roze
+  kleurvarianten: Wit, Roze
+- naam: Vlijtig Liesje
+  categorie: Eenjarig
+  plantmoment: Februari-Mei
+  zonSchaduw: Halfschaduw
+  bloeitijd: Mei-Oktober
+  hoogteBereik: 20-40
+  gemiddeldeHoogte: 30
+  hoogtecategorie: Laag
+  hoofdkleur: Roze/Rood
+  kleurvarianten: Roze, Rood, Wit, Paars
+- naam: Zinnia
+  categorie: Eenjarig
+  plantmoment: Maart-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juni-September
+  hoogteBereik: 30-60
+  gemiddeldeHoogte: 45
+  hoogtecategorie: Middel
+  hoofdkleur: Gemengd
+  kleurvarianten: Alle kleuren
+- naam: Zonnebloem
+  categorie: Eenjarig
+  plantmoment: Mei-Juli
+  zonSchaduw: Zon
+  bloeitijd: Juni-Augustus
+  hoogteBereik: 150-300
+  gemiddeldeHoogte: 225
+  hoogtecategorie: Zeer Hoog
+  hoofdkleur: Geel
+  kleurvarianten: Geel, Oranje, Rood
+- naam: Duizendschoon
+  categorie: Meerjarig
+  plantmoment: Maart-Juli
+  zonSchaduw: Halfschaduw
+  bloeitijd: Mei-Sept (+1j)
+  hoogteBereik: 30-50
+  gemiddeldeHoogte: 40
+  hoogtecategorie: Middel
+  hoofdkleur: Wit/Roze
+  kleurvarianten: Wit, Roze
+- naam: Lupine
+  categorie: Meerjarig
+  plantmoment: Maart-Juli
+  zonSchaduw: Zon
+  bloeitijd: Juli-Augustus
+  hoogteBereik: 80-120
+  gemiddeldeHoogte: 100
+  hoogtecategorie: Hoog
+  hoofdkleur: Blauw/Paars
+  kleurvarianten: Blauw, Paars, Roze, Wit
+- naam: Stokroos
+  categorie: Meerjarig
+  plantmoment: Mei-Juli
+  zonSchaduw: Zon
+  bloeitijd: Juni-Sept (+1j)
+  hoogteBereik: 150-200
+  gemiddeldeHoogte: 175
+  hoogtecategorie: Zeer Hoog
+  hoofdkleur: Gemengd
+  kleurvarianten: Alle kleuren
+- naam: Margriet
+  categorie: Meerjarig
+  plantmoment: Mei-Juni
+  zonSchaduw: Zon/Halfschaduw
+  bloeitijd: Juni-Sept (+1j)
+  hoogteBereik: 30-60
+  gemiddeldeHoogte: 45
+  hoogtecategorie: Middel
+  hoofdkleur: Wit
+  kleurvarianten: Wit, Geel
+- naam: Akelei
+  categorie: Meerjarig
+  plantmoment: Mei-Juni
+  zonSchaduw: Halfschaduw
+  bloeitijd: Mei-Juni (+1j)
+  hoogteBereik: 60-100
+  gemiddeldeHoogte: 80
+  hoogtecategorie: Hoog
+  hoofdkleur: Blauw/Paars
+  kleurvarianten: Blauw, Paars, Roze, Wit
+- naam: Vergeet-me-niet
+  categorie: Meerjarig
+  plantmoment: Mei-Augustus
+  zonSchaduw: Halfschaduw
+  bloeitijd: April-Juli (+1j)
+  hoogteBereik: 15-30
+  gemiddeldeHoogte: 22
+  hoogtecategorie: Laag
+  hoofdkleur: Blauw
+  kleurvarianten: Blauw, Roze
+- naam: Vingerhoedskruid
+  categorie: Meerjarig
+  plantmoment: Juni-Augustus
+  zonSchaduw: Halfschaduw
+  bloeitijd: April-Juni (+1j)
+  hoogteBereik: 100-180
+  gemiddeldeHoogte: 140
+  hoogtecategorie: Zeer Hoog
+  hoofdkleur: Paars/Roze
+  kleurvarianten: Paars, Roze, Wit
+- naam: Zeepkruid
+  categorie: Meerjarig
+  plantmoment: Mei-Juni
+  zonSchaduw: Zon
+  bloeitijd: Mei-Sept (+1j)
+  hoogteBereik: 30-60
+  gemiddeldeHoogte: 45
+  hoogtecategorie: Middel
+  hoofdkleur: Roze/Wit
+  kleurvarianten: Roze, Wit
+- naam: IJzerhard
+  categorie: Eenjarig
+  plantmoment: Februari-Mei
+  zonSchaduw: Zon
+  bloeitijd: Juli-Oktober
+  hoogteBereik: 40-80
+  gemiddeldeHoogte: 60
+  hoogtecategorie: Middel
+  hoofdkleur: Blauw/Paars
+  kleurvarianten: Blauw, Paars
+- naam: Violen
+  categorie: Meerjarig
+  plantmoment: Februari-Augustus
+  zonSchaduw: Halfschaduw
+  bloeitijd: April-Juni (+1j)
+  hoogteBereik: 10-20
+  gemiddeldeHoogte: 15
+  hoogtecategorie: Laag
+  hoofdkleur: Paars/Geel
+  kleurvarianten: Paars, Geel, Wit, Blauw
+- naam: Aubrieta
+  categorie: Meerjarig
+  plantmoment: Mei-Juli
+  zonSchaduw: Zon
+  bloeitijd: Mei-Juli (+1j)
+  hoogteBereik: 10-20
+  gemiddeldeHoogte: 15
+  hoogtecategorie: Laag
+  hoofdkleur: Blauw/Paars
+  kleurvarianten: Blauw, Paars, Roze
+- naam: Wildemanskruid
+  categorie: Meerjarig
+  plantmoment: Mei-Juli
+  zonSchaduw: Zon
+  bloeitijd: Maart-April (+1j)
+  hoogteBereik: 15-30
+  gemiddeldeHoogte: 22
+  hoogtecategorie: Laag
+  hoofdkleur: Geel
+  kleurvarianten: Geel
+- naam: Lampionplant
+  categorie: Meerjarig
+  plantmoment: Mei-Augustus
+  zonSchaduw: Zon
+  bloeitijd: Juni-Aug (+1j)
+  hoogteBereik: 60-120
+  gemiddeldeHoogte: 90
+  hoogtecategorie: Hoog
+  hoofdkleur: Oranje
+  kleurvarianten: Oranje, Rood

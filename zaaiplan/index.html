@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaaiplan voor Bloemen en Planten - Complete Gids</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Header Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">🌸 Zaaiplan voor Bloemen en Planten</h1>
+            <p class="hero-subtitle">Uw complete gids voor het zaaien en planten van 30 prachtige bloemen</p>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number">30</div>
+                    <div class="stat-label">Planten</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">17</div>
+                    <div class="stat-label">Eenjarig</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">13</div>
+                    <div class="stat-label">Meerjarig</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Overview Statistics Section -->
+    <section class="statistics-section">
+        <div class="container">
+            <h2 class="section-title">📊 Overzicht</h2>
+            <div class="stats-grid">
+                <div class="overview-card">
+                    <div class="card-icon">📏</div>
+                    <div class="card-content">
+                        <h3>Hoogte Bereik</h3>
+                        <p class="big-number">10-300 cm</p>
+                    </div>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">🎨</div>
+                    <div class="card-content">
+                        <h3>Kleurenpalet</h3>
+                        <div class="color-dots">
+                            <span class="color-dot" style="background: #FF6B6B;"></span>
+                            <span class="color-dot" style="background: #FFB347;"></span>
+                            <span class="color-dot" style="background: #6B5FFF;"></span>
+                            <span class="color-dot" style="background: #FF69B4;"></span>
+                            <span class="color-dot" style="background: #4ECDC4;"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">☀️</div>
+                    <div class="card-content">
+                        <h3>Lichtbehoeften</h3>
+                        <p>Zon tot Halfschaduw</p>
+                    </div>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">🌱</div>
+                    <div class="card-content">
+                        <h3>Plantperiode</h3>
+                        <p>Feb - Augustus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Zoek een plant..." class="search-input">
+            </div>
+            
+            <div class="filter-group">
+                <h3 class="filter-title">Categorie</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Alle (30)</button>
+                    <button class="filter-btn" data-filter="Eenjarig">Eenjarig (17)</button>
+                    <button class="filter-btn" data-filter="Meerjarig">Meerjarig (13)</button>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3 class="filter-title">Hoogte</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn" data-height="Laag">Laag (10-40cm)</button>
+                    <button class="filter-btn" data-height="Middel">Middel (30-80cm)</button>
+                    <button class="filter-btn" data-height="Hoog">Hoog (60-150cm)</button>
+                    <button class="filter-btn" data-height="Zeer Hoog">Zeer Hoog (150+cm)</button>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3 class="filter-title">Licht</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn" data-light="Zon">☀️ Zon</button>
+                    <button class="filter-btn" data-light="Halfschaduw">🌤️ Halfschaduw</button>
+                </div>
+            </div>
+
+            <div class="results-count">
+                <span id="resultsCount">30 planten gevonden</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plant Cards Grid -->
+    <section class="plants-section">
+        <div class="container">
+            <div class="plants-grid" id="plantsGrid">
+                <!-- Plant cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Height Visualization Section -->
+    <section class="height-viz-section">
+        <div class="container">
+            <h2 class="section-title">📏 Hoogte Verdeling</h2>
+            <div class="height-visualization">
+                <div class="height-category">
+                    <div class="height-bar" style="height: 60px;" data-category="Laag">
+                        <span class="bar-label">Laag</span>
+                        <span class="bar-count" id="countLaag">0</span>
+                    </div>
+                    <div class="category-name">10-40cm</div>
+                </div>
+                <div class="height-category">
+                    <div class="height-bar" style="height: 120px;" data-category="Middel">
+                        <span class="bar-label">Middel</span>
+                        <span class="bar-count" id="countMiddel">0</span>
+                    </div>
+                    <div class="category-name">30-80cm</div>
+                </div>
+                <div class="height-category">
+                    <div class="height-bar" style="height: 180px;" data-category="Hoog">
+                        <span class="bar-label">Hoog</span>
+                        <span class="bar-count" id="countHoog">0</span>
+                    </div>
+                    <div class="category-name">60-150cm</div>
+                </div>
+                <div class="height-category">
+                    <div class="height-bar" style="height: 240px;" data-category="Zeer Hoog">
+                        <span class="bar-label">Zeer Hoog</span>
+                        <span class="bar-count" id="countZeerHoog">0</span>
+                    </div>
+                    <div class="category-name">150+cm</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Palette Section -->
+    <section class="color-section">
+        <div class="container">
+            <h2 class="section-title">🎨 Kleurenpalet</h2>
+            <div class="color-palette" id="colorPalette">
+                <!-- Color swatches will be dynamically inserted -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">📅 Zaai Tijdlijn</h2>
+            <div class="timeline">
+                <div class="timeline-month" data-month="Februari">
+                    <div class="month-name">Feb</div>
+                    <div class="month-plants" id="monthFeb"></div>
+                </div>
+                <div class="timeline-month" data-month="Maart">
+                    <div class="month-name">Mrt</div>
+                    <div class="month-plants" id="monthMar"></div>
+                </div>
+                <div class="timeline-month" data-month="April">
+                    <div class="month-name">Apr</div>
+                    <div class="month-plants" id="monthApr"></div>
+                </div>
+                <div class="timeline-month" data-month="Mei">
+                    <div class="month-name">Mei</div>
+                    <div class="month-plants" id="monthMay"></div>
+                </div>
+                <div class="timeline-month" data-month="Juni">
+                    <div class="month-name">Jun</div>
+                    <div class="month-plants" id="monthJun"></div>
+                </div>
+                <div class="timeline-month" data-month="Juli">
+                    <div class="month-name">Jul</div>
+                    <div class="month-plants" id="monthJul"></div>
+                </div>
+                <div class="timeline-month" data-month="Augustus">
+                    <div class="month-name">Aug</div>
+                    <div class="month-plants" id="monthAug"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section class="tips-section">
+        <div class="container">
+            <h2 class="section-title">💡 Tuintips</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">☀️</div>
+                    <h3>Zonlicht</h3>
+                    <p>Controleer de lichtbehoeften van elke plant. Zonminnende planten hebben minimaal 6 uur direct zonlicht nodig.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">💧</div>
+                    <h3>Water</h3>
+                    <p>Geef regelmatig water, vooral tijdens droge periodes. Vermijd overmatig water bij halfschaduwplanten.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">📏</div>
+                    <h3>Hoogte Planning</h3>
+                    <p>Plant hoge planten achteraan en lage vooraan voor een mooie gelaagde look in uw bloementuin.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🎨</div>
+                    <h3>Kleur Combinaties</h3>
+                    <p>Combineer complementaire kleuren voor contrast, of kies analoge kleuren voor harmonie in uw tuin.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🌱</div>
+                    <h3>Zaaitijd</h3>
+                    <p>Volg de aanbevolen plantmomenten. Eenjarige planten in het voorjaar, meerjarige later in het seizoen.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🌸</div>
+                    <h3>Bloeitijd</h3>
+                    <p>Plan uw tuin met verschillende bloeitijden voor kleur van voorjaar tot herfst.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>🌻 Veel succes met uw bloementuin! 🌻</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

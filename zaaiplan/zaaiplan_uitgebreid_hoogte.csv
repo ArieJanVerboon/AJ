@@ -1,0 +1,31 @@
+Bloem/Plant,Categorie,Plantmoment,Zon/Schaduw,Bloeitijd,Hoogte Min (cm),Hoogte Max (cm),Hoogte Bereik,Gemiddelde Hoogte (cm),Hoogtecategorie
+Afrikaantjes,Eenjarig,Maart-Mei,Zon,Mei-Augustus,20,30,20-30,25,Laag
+Begonia,Eenjarig,Februari-Mei,Halfschaduw,Mei-Oktober,20,40,20-40,30,Laag
+Petunia,Eenjarig,Februari-Mei,Zon,Juni-Oktober,20,40,20-40,30,Laag
+Vlijtig Liesje,Eenjarig,Februari-Mei,Halfschaduw,Mei-Oktober,20,40,20-40,30,Laag
+Goudsbloem,Eenjarig,Maart-Mei,Zon,Juni-Oktober,30,60,30-60,45,Middel
+Oost-Indische Kers,Eenjarig,Maart-Mei,Halfschaduw,Juni-Oktober,30,60,30-60,45,Middel
+Salvia,Eenjarig,Maart-Mei,Zon,Juni-September,30,60,30-60,45,Middel
+Zinnia,Eenjarig,Maart-Mei,Zon,Juni-September,30,60,30-60,45,Middel
+Slangenkruid,Eenjarig,Maart-Mei,Zon,Juli-Oktober,30,80,30-80,55,Middel
+Aster,Eenjarig,Maart-Mei,Zon,Juli-September,40,80,40-80,60,Middel
+Korenbloem,Eenjarig,Maart-Mei,Zon,Mei-September,40,80,40-80,60,Middel
+Klaproos,Eenjarig,Februari-Maart,Zon,Juni-Augustus,40,80,40-80,60,Middel
+IJzerhard,Eenjarig,Februari-Mei,Zon,Juli-Oktober,40,80,40-80,60,Middel
+Cosmea,Eenjarig,Maart-Mei,Zon,Juni-Oktober,60,120,60-120,90,Hoog
+Lavatera,Eenjarig,Maart-Mei,Zon,Juli-September,60,120,60-120,90,Hoog
+Siererwt,Eenjarig,Maart-Mei,Zon/Halfschaduw,Juni-September,150,200,150-200,175,Zeer Hoog
+Zonnebloem,Eenjarig,Mei-Juli,Zon,Juni-Augustus,150,300,150-300,225,Zeer Hoog
+Violen,Meerjarig,Februari-Augustus,Halfschaduw,April-Juni (+1 jaar),10,20,10-20,15,Laag
+Aubrieta,Meerjarig,Mei-Juli,Zon,Mei-Juli (+1 jaar),10,20,10-20,15,Laag
+Vergeet-me-niet,Meerjarig,Mei-Augustus,Halfschaduw,April-Juli (+1 jaar),15,30,15-30,22,Laag
+Wildemanskruid,Meerjarig,Mei-Juli,Zon,Maart-April (+1 jaar),15,30,15-30,22,Laag
+Duizendschoon,Meerjarig,Maart-Juli,Halfschaduw,Mei-September (+1 jaar),30,50,30-50,40,Middel
+Margriet,Meerjarig,Mei-Juni,Zon/Halfschaduw,Juni-September (+1 jaar),30,60,30-60,45,Middel
+Zeepkruid,Meerjarig,Mei-Juni,Zon,Mei-September (+1 jaar),30,60,30-60,45,Middel
+Akelei,Meerjarig,Mei-Juni,Halfschaduw,Mei-Juni (+1 jaar),60,100,60-100,80,Hoog
+Lampionplant,Meerjarig,Mei-Augustus,Zon,Juni-Augustus (+1 jaar),60,120,60-120,90,Hoog
+Lupine,Meerjarig,Maart-Juli,Zon,Juli-Augustus,80,120,80-120,100,Hoog
+Ridderspoor,Meerjarig,Maart-Juli,Zon,Juli-Augustus,80,150,80-150,115,Zeer Hoog
+Vingerhoedskruid,Meerjarig,Juni-Augustus,Halfschaduw,April-Juni (+1 jaar),100,180,100-180,140,Zeer Hoog
+Stokroos,Meerjarig,Mei-Juli,Zon,Juni-September (+1 jaar),150,200,150-200,175,Zeer Hoog
